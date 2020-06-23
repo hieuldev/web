@@ -43,6 +43,7 @@ if($max<=$result_pbb['COUNT(*)'])
 			
 	<?php }}?>
 	</div>
+</div>
 	<?php }} 
 	echo '<div class="page">';
          

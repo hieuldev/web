@@ -137,6 +137,7 @@ ul.dc_mm-orange .sub li.mega-hdr li a:hover{
 ul.dc_mm-orange .sub ul li{
 	padding-right:0;
 }
+
 ul.dc_mm-orange li .sub-container.non-mega .sub{
 	padding:5px 20px 20px 0;
 }
@@ -185,7 +186,7 @@ ul.dc_mm-orange li .sub-container.non-mega li a:hover{
  	height:20px;
  	
  }
- }
+ 
  @media only screen and (max-width:640px) {
  	ul.dc_mm-orange li a {
 		padding:20px 8.5px;

@@ -117,7 +117,9 @@ header("Cache-Control: max-age=2592000");
 			<div class="clear"></div>
 		</div>
 		<div class="menu">
-			<ul id="dc_mega-menu-orange" class="dc_mm-orange">
+			 
+                 <ul id="dc_mega-menu-orange" class="dc_mm-orange">
+                     
 				<li><a href="index.php">Trang chủ</a></li>
 				<li><a href="products.php">Sản phẩm</a> </li>
 				<li><a href="topbrands.php">Nhãn hiệu hàng đầu</a></li>
@@ -167,5 +169,8 @@ header("Cache-Control: max-age=2592000");
                 </li>  
 				<div class="clear"></div>
 			</ul>
+            
+                
+            
 
 		</div>

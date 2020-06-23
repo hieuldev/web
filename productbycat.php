@@ -50,6 +50,7 @@ if(!isset($_GET['catid']) || $_GET['catid'] == NULL){
 	
     </div>
  </div>
+</div>
  <div class="page">
           <?php
             $pbc=$cat->select_product_by_cat($id);

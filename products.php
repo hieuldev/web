@@ -41,6 +41,7 @@ if($max<=$result_pbc['COUNT(*)'])
 					<?php }
 					} ?>
 				</div>
+            </div>
 		<?php }
 }
  
