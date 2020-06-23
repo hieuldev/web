@@ -84,7 +84,7 @@ include 'inc/header.php';
 
 			</div>
 		</div>
-		<a style="background:gray" href="payment.php">Quay lại</a>
+		<button style="background:#4267b2,color:white" href="payment.php">Quay lại</button>
 		<?php if(isset($_GET['Card'])){
 		echo'<center style="padding-bottom: 20px;"><input type="submit" value="Tiếp tục" class="a_order"></center>';}?>
 		<?php if((!empty($_GET['cardnumber'])&&!empty($_GET['name'])&&!empty($_GET['date'])&&!empty($_GET['code'])||(!empty($_GET['name'])&&!empty($_GET['pass'])&&!empty($_GET['code'])&&$_GET['bank']!='null')))

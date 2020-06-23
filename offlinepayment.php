@@ -184,11 +184,11 @@
  		</div>
 	 </div>
 	<?php if(isset($_GET['online'])&&$_GET['online']=='true') {
-	echo '<a style="background:gray" href="onlinepayment.php">Quay lại</a>';
+	echo '<button style="background:#4267b2,color:white" href="onlinepayment.php">Quay lại</button>';
 }
 	else
 	{
-		echo '<a style="background:gray" href="payment.php">Quay lại</a>';
+		echo '<button style="background:#4267b2,color:white" href="payment.php">Quay lại</button>';
 	}
 	?><center style="padding-bottom: 20px;"><a href="?orderid=order" class="a_order">Đặt hàng ngay</a></center>
  </div>

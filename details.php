@@ -117,21 +117,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
             ?>
                     
  		</div>
-            <div class="rightsidebar span_3_of_1">
-					<h2>Loại hàng</h2>
-                    <?php 
-                    $getall_category=$cat->show_category_fontend();
-                    if($getall_category)
-                    {while($result_allcat= $getall_category->fetch_assoc())
-                    {
-                    ?>
-					<ul>
-				      <li><a href="productbycat.php?catid=<?php echo $result_allcat['catId']; ?>">
-                          <?php echo $result_allcat['catName']; ?></a></li>
-				      
-    				</ul>
-    	<?php }} ?>
- 				</div>
+           
 				
  	</div>
      </div>
